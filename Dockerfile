@@ -1,6 +1,6 @@
-FROM alpine:3.3
-MAINTAINER Robin Naundorf <r.naundorf@fh-muenster.de>
-RUN apk add --update unrar && rm -rf /var/cache/apk/* 
-VOLUME /work
-WORKDIR /work
+FROM ogomez/arm32v7-alpine
+MAINTAINER Dachaz <dachaz@dachaz.net>
+RUN apk add --no-cache --update unrar && rm -rf /var/cache/apk/*
+VOLUME /files
+WORKDIR /files
 ENTRYPOINT ["unrar"]
