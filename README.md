@@ -1,6 +1,6 @@
 # What is it?
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/dachaz/unrar-armhf.svg?style=flat-square)](https://hub.docker.com/r/dachaz/unrar-armhf/) [![Docker Stars](https://img.shields.io/docker/stars/dachaz/unrar-armhf.svg?style=flat-square)](https://hub.docker.com/r/dachaz/unrar-armhf/) [![Docker Automated build](https://img.shields.io/docker/automated/dachaz/unrar-armhf.svg?style=flat-square)](https://hub.docker.com/r/dachaz/unrar-armhf/) [![Docker Build Status](https://img.shields.io/docker/build/dachaz/unrar-armhf.svg?style=flat-square)](https://hub.docker.com/r/dachaz/unrar-armhf/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/dachaz/unrar-armhf.svg?style=flat-square)](https://hub.docker.com/r/dachaz/unrar-armhf/) [![Docker Stars](https://img.shields.io/docker/stars/dachaz/unrar-armhf.svg?style=flat-square)](https://hub.docker.com/r/dachaz/unrar-armhf/)
 
 A tiny image based on [alpine-armhf](https://hub.docker.com/r/ogomez/arm32v7-alpine/) with [unrar](https://pkgs.alpinelinux.org/package/edge/main/armhf/unrar).
 
