@@ -11,4 +11,4 @@ if [ "$FOLDER" == "." ]; then
     FOLDER=$PWD
 fi
 
-docker run --rm -v $FOLDER:/files dachaz/unrar-armhf e -r $FILE
+docker run --rm -v "$FOLDER:/files" dachaz/unrar-armhf e -r $FILE

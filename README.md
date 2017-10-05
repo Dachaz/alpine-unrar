@@ -12,7 +12,7 @@ Compatible with **WD My Cloud Mirror Gen 2**, making it possible to unrar archiv
 To unpack a file named `MY_FILE.rar` found in the current folder, run:
 
 ```shell
-docker run --rm -v $PWD:/files dachaz/unrar-armhf e -r MY_FILE.rar
+docker run --rm -v "$PWD:/files" dachaz/unrar-armhf e -r MY_FILE.rar
 ```
 
 **Note for WD My Cloud Mirror Gen 2 users:** No additional setup is necessary, this command is fully self-contained. Only change the file name.
